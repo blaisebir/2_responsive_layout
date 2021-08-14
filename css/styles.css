@@ -231,6 +231,10 @@ nav li {
         margin: 0.5rem;
 }
 
+div .my-intro img {
+    width: initial;
+}
+
 .skills-container {
     display: flex;
     flex-direction: row;
@@ -272,6 +276,18 @@ footer .navigation-1 {
         width: 30%;
         /* margin: 35px */
 }
+
+header .main-nav nav {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
 
 .vrai {
     padding-left: 18rem;
