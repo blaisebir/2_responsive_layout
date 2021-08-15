@@ -275,38 +275,43 @@ footer .navigation-1 {
     .ping-container .ping {
         width: 30%;
         /* margin: 35px */
-}
+    }
 
-header .main-nav nav {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-end;
+    header .main-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
-}
+    nav {
+        text-align: end;
+    }
 
+    .vrai {
+        padding-left: 18rem;
+        padding-right: 18rem;
+        
+    }
 
+    header h1 {
+        display: inline;
+        font-size: 23px;
+    }
 
-.vrai {
-    padding-left: 18rem;
-    padding-right: 18rem;
-    
-}
+    .skills-container .pong {
+        width: 30%;
+        /* margin: 35px */
+    }
 
-.skills-container .pong {
-    width: 30%;
-    /* margin: 35px */
-}
+    .caption-me {
+        text-align: left;
+        font-size: 25px;
+    }
 
-.caption-me {
-    text-align: left;
-    font-size: 25px;
-}
-
-p {
-    font-size: 20px;
-}
+    p {
+        font-size: 20px;
+    }
 
 }
